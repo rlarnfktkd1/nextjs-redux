@@ -1,16 +1,13 @@
 import * as React from "react";
-import Background from "../components/Background";
+import { NextPage } from "next";
+import Background from "../components/Background/Background";
 
-export default class extends React.Component<any, any> {
-  constructor(props: any) {
-    super(props);
-  }
+const Index: NextPage = () => {
+  return (
+    <div>
+      <Background />
+    </div>
+  );
+};
 
-  render() {
-    return (
-      <div>
-        <Background />
-      </div>
-    );
-  }
-}
+export default Index;

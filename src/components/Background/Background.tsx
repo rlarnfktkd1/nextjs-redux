@@ -1,7 +1,8 @@
 import React from "react";
-import "./Background.css";
 
-const Background = () => {
+import "./background.scss";
+
+const Background: React.FC = () => {
   return <div>123</div>;
 };
 
